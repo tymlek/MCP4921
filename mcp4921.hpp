@@ -1,6 +1,6 @@
 /* 
  * File:   mcp4921.hpp
- * Author: pi
+ * Author: Tymoteusz Lekszycki
  *
  * Created on 12 May 2016, 17:13
  */
