@@ -1,6 +1,6 @@
 /* 
  * File:   main.cpp
- * Author: pi
+ * Author: Tymoteusz Lekszycki
  *
  * Created on 12 May 2016, 17:11
  */
@@ -35,7 +35,7 @@ int main(int argc, char** argv) {
         exit(1);
     }
     
-    cout << "Seting analog output to: " << volts << "V" << endl;
+    cout << "Setting analog output to: " << volts << "V" << endl;
     dac->analogWrite(voltsToBits(volts,refVoltage));
     
     delete dac;
